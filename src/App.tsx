@@ -264,7 +264,7 @@ export default function App() {
           <motion.div whileHover={{ y: -10 }} className="flex flex-col items-center md:items-start text-center md:text-left">
             <div className="bg-cream p-8 rounded-[3rem] mb-10 w-full flex justify-center">
               <img 
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=768,fit=crop/AQEeoVwPR4FDzx4r/passos-e-entrega-veis-12-1-m6L201Jr6BFwOJ7Q.png" 
+                src="https://i.im.ge/eJfVg1/WhatsApp_Image_2026-04-11_at_00.20.10.jpg" 
                 alt="Pack 500 Moldes" 
                 className="h-64 md:h-80 object-contain drop-shadow-2xl" 
                 referrerPolicy="no-referrer" 
@@ -357,7 +357,7 @@ export default function App() {
             />
 
             <img 
-              src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=466,fit=crop/AQEeoVwPR4FDzx4r/imagens-cel-2-1-LFLmXAzSH1vJAaly.png" 
+              src="https://i.im.ge/eJffef/WhatsApp_Image_2026-04-11_at_00.28.41.jpg" 
               alt="Mockup Oferta" 
               className="w-full max-w-2xl mx-auto mb-10 rounded-2xl shadow-lg"
               referrerPolicy="no-referrer"
@@ -419,7 +419,7 @@ export default function App() {
         <div className="flex flex-col md:flex-row items-center gap-20">
           <div className="flex-1 space-y-8 text-center md:text-left">
             <h2 className="text-3xl md:text-5xl font-black leading-tight">
-              <span className="text-brand-red">Karla Vieira e Alice Ponciano</span> são as criadoras do Pack de Moldes Editáveis para Celular.
+              <span className="text-brand-red">Renata Oliveira e Vanessa Ribeiro</span> são as criadoras do Pack de Moldes Editáveis para Celular.
             </h2>
             <div className="space-y-6 text-lg md:text-xl text-gray-600 leading-relaxed">
               <p>Nossos moldes já ajudaram milhares de mulheres artesãs a transformar sua criatividade em peças lindas e lucrativas.</p>
@@ -431,7 +431,7 @@ export default function App() {
             <div className="absolute -inset-4 bg-brand-red/10 blur-2xl rounded-[3rem] rotate-3 group-hover:rotate-0 transition-transform"></div>
             <img 
               src="https://i.pinimg.com/236x/13/57/ad/1357ad1a3444c039a4098948452b536a.jpg" 
-              alt="Karla e Alice" 
+              alt="Renata e Vanessa" 
               className="w-full rounded-[3rem] shadow-2xl relative z-10 border-8 border-white"
               referrerPolicy="no-referrer"
             />
