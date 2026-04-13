@@ -3,13 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pack de Moldes Editáveis - 500+ Moldes no Celular</title>
-    <script
-      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-      data-utmify-prevent-subids
-      async
-      defer
-    ></script>
+    <title>Pack de Carrosséis para Igreja - 500+ Artes no Celular</title>
+    <script>
+      // Prevent scripts from crashing when trying to overwrite read-only fetch (common in some iframe environments)
+      (function() {
+        try {
+          var target = window;
+          var prop = 'fetch';
+          var descriptor = Object.getOwnPropertyDescriptor(target, prop);
+          
+          // If the property exists and is not writable (or only has a getter)
+          if (descriptor && (!descriptor.writable || !descriptor.set)) {
+            var currentFetch = target[prop];
+            Object.defineProperty(target, prop, {
+              configurable: true,
+              enumerable: true,
+              get: function() {
+                return currentFetch;
+              },
+              set: function(newValue) {
+                console.warn('Intercepted attempt to overwrite read-only fetch. Updating internal reference.');
+                currentFetch = newValue;
+              }
+            });
+          }
+        } catch (e) {
+          // Fallback for extreme cases
+          console.warn('Fetch guard failed to initialize:', e);
+        }
+      })();
+    </script>
     <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
@@ -33,6 +56,12 @@
     </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
   </body>
 </html>
 
